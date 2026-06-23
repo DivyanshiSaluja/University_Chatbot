@@ -1,0 +1,5 @@
+python>=3.10
+langchain-core
+langchain-ollama
+langgraph
+langgraph-checkpoint-sqlite
