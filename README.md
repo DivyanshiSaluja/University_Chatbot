@@ -1,10 +1,10 @@
-# 🎓 University Chatbot
+# University Chatbot
 
 A multi-agent AI chatbot for university query resolution, built using **LangGraph** and **Ollama (local LLM)**. The bot intelligently routes student queries to specialized agents based on the topic — admissions, academics, hostel, placement, or personal memory.
 
 ---
 
-## 🧠 Architecture Overview
+# Architecture Overview
 
 ```
 User Input
@@ -28,7 +28,7 @@ Structured Response to User
 
 ---
 
-## 🗂️ Project Structure
+# Project Structure
 
 ```
 university_chatbot/
@@ -68,7 +68,7 @@ university_chatbot/
 
 ---
 
-## ⚙️ Tech Stack
+# Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -79,33 +79,33 @@ university_chatbot/
 
 ---
 
-## 🚀 Getting Started
+# Getting Started
 
-### 1. Clone the repository
+# 1. Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/university_chatbot.git
 cd university_chatbot
 ```
 
-### 2. Install dependencies
+# 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Pull the Ollama model
+# 3. Pull the Ollama model
 ```bash
 ollama pull llama3
 ```
 > Make sure [Ollama](https://ollama.com/download) is installed and running locally.
 
-### 4. Run the chatbot
+# 4. Run the chatbot
 ```bash
 python app.py
 ```
 
 ---
 
-## 💬 Example Queries
+# Example Queries
 
 | Query | Routed To |
 |---|---|
@@ -117,7 +117,7 @@ python app.py
 
 ---
 
-## 🧩 Key Design Decisions
+# Key Design Decisions
 
 - **LangGraph StateGraph** is used for deterministic, inspectable agent routing
 - **Keyword-based classifier** keeps the MVP lightweight without requiring an LLM call for routing
@@ -126,7 +126,7 @@ python app.py
 
 ---
 
-## 📌 Future Improvements
+# Future Improvements
 
 - [ ] Replace keyword classifier with LLM-based intent detection
 - [ ] Add web search tool for real-time university data
@@ -136,6 +136,6 @@ python app.py
 
 ---
 
-## 👤 Author
+# Author
 
 Built as a portfolio project to demonstrate multi-agent AI orchestration using LangGraph.
